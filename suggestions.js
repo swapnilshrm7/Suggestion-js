@@ -33,6 +33,8 @@ function GetSuggestion()
 					ul.style.height="0px";
 					var li=document.createElement("li");
 					li.innerHTML="no match found";
+					h=45;
+					ul.style.height=h+'px';
 					ul.appendChild(li);
 					}
 				if(input==""){
